@@ -21,7 +21,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   //raunaway button
   const runawayButtonLogic = (button) => {
     const moveButton = function () {
-      if (this.textContent.trim() === "Say yes or else...") {
+      if (this.textContent.trim() === "Di que si o...") {
         const top = getRandomNumber(window.innerHeight - this.offsetHeight);
         const left = getRandomNumber(window.innerWidth - this.offsetWidth);
   
@@ -59,7 +59,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
       if (noClickCount === 4) {
         const newButton = document.createElement("button");
         newButton.id = "runawayButton";
-        newButton.textContent = "Say yes or else...";
+        newButton.textContent = "Di que si o...";
         newButton.style.position = "absolute";
         const yesButtonRect = yesButton.getBoundingClientRect();
         newButton.style.top = `${yesButtonRect.bottom + 10}px`;
@@ -92,7 +92,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
     valentineQuestion.innerHTML = `
       <img src="./images/image7.gif" alt="Celebration duckie" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
       Felicitaciones<br>
-      <span style="font-size: 20px; color: #bd1e59;">You have scored a baddie for Valentine's Day! <3</span>
+      <span style="font-size: 20px; color: #bd1e59;">Tenemos ya agendada una cita para el dia de San Valentin</span>
     `;
     valentineQuestion.style.textAlign = "center"; 
   
@@ -156,4 +156,5 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   }
 
   
+
 
