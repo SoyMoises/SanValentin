@@ -92,7 +92,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
     valentineQuestion.innerHTML = `
       <img src="./images/image7.gif" alt="Celebration duckie" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
       Felicitaciones<br>
-      <span style="font-size: 20px; color: #bd1e59;">Tenemos ya agendada una cita para el dia de San Valentin</span>
+      <span style="font-size: 20px; color: #bd1e59;">Ya se agendo la cita para el dia de San Valentin</span>
     `;
     valentineQuestion.style.textAlign = "center"; 
   
@@ -156,5 +156,6 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   }
 
   
+
 
 
